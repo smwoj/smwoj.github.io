@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://smwoj.github.io/sitemap.xml
