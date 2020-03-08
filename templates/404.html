@@ -1,0 +1,10 @@
+{% extends "index.html" %}
+
+{% block content %}
+<div class="post">
+    <img src="{{ resize_image(path="other/NOTSUREIF.jpg", width=900, height=500) }}" />
+    <h1 class="post-title">404: Page not found</h1>
+    Either you're looking for something that doesn't exist or a broken link brought you here.</p>
+    <a href={{ config.base_url }}>Maybe head back home and try again?</a></p>
+</div>
+{% endblock content %}

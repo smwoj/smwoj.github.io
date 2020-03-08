@@ -1,0 +1,27 @@
+# The URL the site will be built for
+base_url = "https://smwoj.github.io/"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+# Theme
+theme = "hyde"
+
+title = "smwoj scribbles"
+description = "Notes on software development."
+
+[extra]
+hyde_links = [
+    {url = "/", name = "Home"},
+    {url = "/about", name = "About me"},
+    {url = "https://github.com/smwoj/", name = "Github"},
+]
+hyde_theme = "theme-base-08"
+footer = "Wojciech Smołka © 2020."
