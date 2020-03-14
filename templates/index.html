@@ -10,8 +10,12 @@
             </a>
         </h1>
 
-        <span class="post-date">{{ page.date | date(format="%Y-%m-%d") }}</span>
+        <span class="post-date">{{ page.date | date(format="%Y-%m-%d") }} - reading time: {{ page.reading_time }} minutes </span>
         <span class="summary">{{ page.summary| safe }}</span>
+        <a href="{{ page.permalink }}">
+            <em>read more...</em>
+        </a>
+
     </div>
     {% endfor %}
 </div>
